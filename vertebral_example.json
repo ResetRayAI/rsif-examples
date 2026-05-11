@@ -1,0 +1,39 @@
+{
+  "rsif_version": "3.0-safe",
+  "format_name": "ResetRay Structured Imaging Format",
+  "document_type": "technical_quantitative_ct_data",
+  "language": "en",
+
+  "scope": {
+    "service_type": "technical_ct_dicom_processing",
+    "not_a_medical_report": true,
+    "not_a_diagnosis": true,
+    "not_clinical_decision_support": true
+  },
+
+  "data_origin": {
+    "modality": "CT",
+    "source_format": "DICOM",
+    "study_region": "lumbar_spine",
+    "contrast_status": "unknown"
+  },
+
+  "technical_measurements": {
+    "vertebral_body_l1": {
+      "parameter": "vertebral_attenuation_hu",
+      "mean_hu": 135,
+      "unit": "HU"
+    },
+
+    "vertebral_body_l2": {
+      "parameter": "vertebral_attenuation_hu",
+      "mean_hu": 141,
+      "unit": "HU"
+    }
+  },
+
+  "technical_preview": {
+    "available": true,
+    "format": "PNG"
+  }
+}
