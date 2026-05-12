@@ -1,0 +1,31 @@
+{
+  "@context": "https://docs.resetray.ru/vocabulary/context.jsonld",
+  "rsif_version": "3.0-safe",
+  "study_type": "CT",
+  "analysis_type": "liver_attenuation",
+  "measurements": {
+    "LIVER_HU": {
+      "value": 48,
+      "unit": "HU",
+      "method": "mean_hepatic_roi"
+    },
+    "SPLEEN_HU": {
+      "value": 58,
+      "unit": "HU",
+      "method": "mean_splenic_roi"
+    },
+    "LIVER_SPLEEN_DIFF": {
+      "value": -10,
+      "unit": "HU"
+    },
+    "LIVER_SPLEEN_RATIO": {
+      "value": 0.83,
+      "unit": "ratio"
+    }
+  },
+  "scope": {
+    "technical_analysis_only": true,
+    "medical_diagnosis": false,
+    "clinical_decision_support": false
+  }
+}
