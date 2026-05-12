@@ -1,28 +1,35 @@
 {
+  "$schema": "https://docs.resetray.ru/rsif/schema.json",
   "@context": "https://docs.resetray.ru/vocabulary/context.jsonld",
+
   "rsif_version": "3.0-safe",
   "study_type": "CT",
   "analysis_type": "vertebral_attenuation",
+
   "measurements": {
     "L1_HU": {
       "value": 135,
       "unit": "HU",
       "method": "mean_trabecular_roi"
     },
+
     "L2_HU": {
       "value": 141,
       "unit": "HU",
       "method": "mean_trabecular_roi"
     },
+
     "ROI_FAT_HU": {
       "value": -90,
       "unit": "HU"
     },
+
     "ROI_SOFT_TISSUE_HU": {
       "value": 48,
       "unit": "HU"
     }
   },
+
   "scope": {
     "technical_analysis_only": true,
     "medical_diagnosis": false,
