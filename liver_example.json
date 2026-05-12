@@ -2,20 +2,13 @@
   "rsif_version": "3.0-safe",
   "format_name": "ResetRay Structured Imaging Format",
   "document_type": "technical_quantitative_ct_data",
-  "language": "en",
+  "example_type": "synthetic_public_example",
 
   "scope": {
-    "service_type": "technical_ct_dicom_processing",
+    "technical_only": true,
     "not_a_medical_report": true,
     "not_a_diagnosis": true,
     "not_clinical_decision_support": true
-  },
-
-  "data_origin": {
-    "modality": "CT",
-    "source_format": "DICOM",
-    "study_region": "liver",
-    "contrast_status": "unenhanced"
   },
 
   "technical_measurements": {
@@ -23,17 +16,6 @@
       "parameter": "ct_attenuation_hu",
       "mean_hu": 42,
       "unit": "HU"
-    },
-
-    "spleen": {
-      "parameter": "ct_attenuation_hu",
-      "mean_hu": 51,
-      "unit": "HU"
     }
-  },
-
-  "technical_preview": {
-    "available": true,
-    "format": "PNG"
   }
 }
