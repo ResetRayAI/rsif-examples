@@ -1,0 +1,37 @@
+{
+  "@context": "https://docs.resetray.ru/vocabulary/context.jsonld",
+  "rsif_version": "3.0-safe",
+  "study_type": "CT",
+  "analysis_type": "combined_quantitative_attenuation",
+  "measurements": {
+    "L1_HU": {
+      "value": 135,
+      "unit": "HU"
+    },
+    "L2_HU": {
+      "value": 141,
+      "unit": "HU"
+    },
+    "LIVER_HU": {
+      "value": 48,
+      "unit": "HU"
+    },
+    "SPLEEN_HU": {
+      "value": 58,
+      "unit": "HU"
+    },
+    "LIVER_SPLEEN_DIFF": {
+      "value": -10,
+      "unit": "HU"
+    },
+    "LIVER_SPLEEN_RATIO": {
+      "value": 0.83,
+      "unit": "ratio"
+    }
+  },
+  "scope": {
+    "technical_analysis_only": true,
+    "medical_diagnosis": false,
+    "clinical_decision_support": false
+  }
+}
