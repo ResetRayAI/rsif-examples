@@ -207,6 +207,16 @@ Ontology:
 
 https://docs.resetray.ru/ontology/core.ttl
 
+Canonical documentation:
+
+https://docs.resetray.ru
+
+Semantic ecosystem:
+
+https://docs.resetray.ru/ecosystem/
+
+
+
 ---
 
 # Technical Positioning
