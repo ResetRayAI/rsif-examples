@@ -119,7 +119,7 @@ Examples may include:
 
 ```json
 {
-  "@context":"https://docs.resetray.ru/vocabulary/context.jsonld"
+  "@context": "https://docs.resetray.com/vocabulary/context.jsonld"
 }
 ```
 
@@ -145,6 +145,8 @@ RSIF examples are NOT intended for:
 * replacement of licensed physicians.
 
 Examples represent structured technical imaging data only.
+
+quantitative observations ≠ medical conclusions
 
 ---
 
@@ -172,50 +174,25 @@ AI INTEROPERABILITY
 
 * rsif-specification
 * rsif-vocabulary
-* imaging-ontology
 * rsif-docs
 * imaging-semantics
+* imaging-ontology
 * dicom-anonymization-notes
+* resetray-manifest
 
 Public examples are intended for semantic imaging documentation and AI-readable interoperability only.
 
 ---
 
-# Documentation
+# Canonical Documentation
 
-Main documentation:
+https://docs.resetray.com/
 
-https://docs.resetray.ru
+https://docs.resetray.com/rsif/
 
-Spine documentation:
+https://docs.resetray.com/vocabulary/context.jsonld
 
-https://docs.resetray.ru/opportunistic-ct-spine/
-
-Liver documentation:
-
-https://docs.resetray.ru/opportunistic-ct-liver/
-
-RSIF schema:
-
-https://docs.resetray.ru/rsif/schema.json
-
-Vocabulary:
-
-https://docs.resetray.ru/vocabulary/context.jsonld
-
-Ontology:
-
-https://docs.resetray.ru/ontology/core.ttl
-
-Canonical documentation:
-
-https://docs.resetray.ru
-
-Semantic ecosystem:
-
-https://docs.resetray.ru/ecosystem/
-
-
+https://docs.resetray.com/llms.txt
 
 ---
 
@@ -244,10 +221,6 @@ Production systems, private implementations and proprietary infrastructure are n
 ---
 
 # Links
-
-RU: https://resetray.ru
-
-COM: https://resetray.com
 
 GitHub Organization:
 
